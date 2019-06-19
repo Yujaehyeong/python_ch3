@@ -1,0 +1,32 @@
+- pycharm(community) 에서 Django 프로젝트 시작하기
+
+1. pycharm 프로젝트 생성(python 프로젝트)
+
+2. django 설치
+   [터미널]
+   pip install django
+
+3. 장고 프로젝트 생성
+   [터미널]
+   django-admin startproject python_ch3
+
+4. 디렉토리 정리
+   -> pycharm 프로젝트와 django 프로젝트의 디렉토리 일치시키는 작업
+        * manage.py 파일을 프로젝트 루트/ 로 옮김
+        * 최하위 python3폴더 아래의 .py 파일들은 바로 상위 python3 폴더로 옮긴다
+
+5. psycopg2(postgres db lib) 설치
+   [터미널]
+   pip install psycopg2
+
+
+# Django-advice start project python_ch3
+
+실습 순서
+- python_ch3
+- mysitepy
+- jblogpy
+
+C:/python/python3.7
+              |---/lib
+                    |-- Django
